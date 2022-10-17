@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/27f5d9bc29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Enquiry Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="eq-fr">
+            <h1>Enquiry Form</h1>
+            <form action="" method="POST" name="enquiry-form" id="enquiry-form">
+                <div class="inside-container">
+                    <div class="section-1">
+                        <h2 class="h2-1">Lets's get in touch</h2>
+                        <p class="p-1">We are open for any suggestion or Query</p>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot fa-2x" id="location"></i>
+                                <p>National Highway 31C Bagdogra West Bengal</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone fa-2x"></i>
+                                <p>98253642XX</p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-paper-plane fa-2x"></i>
+                                <p><a href="mailto: abc@example.com">Send Email</a></p>
+                            </li>
+                            <li>
+                                <i class="fa-sharp fa-solid fa-earth-americas fa-2x"></i>
+                                <p><a href="https://www.youtube.com" target="_blank"
+                                        rel="noopener noreferrer">www.YouTube.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section-2">
+                        <h2>Get in Touch</h2>
+                        <div class="name">
+                            <label for="Name">Name:</label>
+                            <input type="text" name="Full Name" id="" placeholder="Full Name" required
+                                autocomplete="off" maxlength="30" size="30">
+                        </div>
+                        <div class="email" class>
+                            <label>Email:</label>
+                            <input type="Email" name="Email" id="" placeholder="Email" autocomplete="off" required
+                                size="30">
+                        </div>
+                        <div class="mobile">
+                            <label for="number">Mobile:</label>
+                            <input type="number" name="Mobile Number" id="mobile" placeholder="Mobile Numeber" required
+                                maxlength="10" size="30" autocomplete="off">
+                        </div>
+                        <div class="subject">
+                            <label for="Subject">Subject:</label>
+                            <input type="text" name="Subject" id="" placeholder="Subject" required maxlength="100"
+                                size="30" autocomplete="off">
+                        </div>
+                        <div class="message">
+                            <label for="Message">Message:</label>
+                            <textarea name="Message" id="" cols="31" rows="3" placeholder="Message" required
+                                maxlength="500"></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

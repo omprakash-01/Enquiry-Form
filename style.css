@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+/* Section-1 */
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.inside-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-1 {
+    width: 30%;
+    background-color: #4ea863;
+    color: white;
+    padding: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 70vh;
+    line-height: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-1 ul li {
+    list-style: none;
+    display: flex;
+}
+
+.section-1 h2 {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.section-1 p {
+    font-family: 'Work Sans', sans-serif;
+    padding: 10px;
+    padding-left: 25px;
+}
+.section-1 ul li i{
+    padding: 20px;
+}
+
+.section-1 ul li p a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Section-2 */
+.section-2 {
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 25px;
+    background-color: white;
+    border: 2px solid green;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(11, 248, 70, 0.2), 0 6px 20px 0 rgba(55, 212, 76, 0.19);
+}
+
+.section-2 h2 {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.section-2 input {
+    border: none;
+    border-bottom: 0.5px solid rgb(117, 117, 117);
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 10px;
+
+}
+
+label {
+    width: 90px;
+    clear: left;
+    padding: 5px;
+}
+
+input,
+label {
+    float: left;
+    padding: 10px;
+}
+
+.section-2 .message {
+    clear: both;
+
+
+}
+
+.section-2 textarea {
+    border: none;
+    border-bottom: 0.5px solid rgb(117, 117, 117);
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea::placeholder {
+    padding: 20px 10px;
+}
+
+.section-2 .btn {
+    clear: both;
+    margin: 30px 100px;
+}
+
+.section-2 button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #4ea863;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid #4ea863;
+    color: #4ea863;
+    background-color: white;
+}
